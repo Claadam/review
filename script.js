@@ -1,1 +1,3 @@
-var button = ("#BUTTon")
+var button = $("#BUTTon")
+
+console.log("IEHGO")
