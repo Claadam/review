@@ -1,3 +1,3 @@
-var button = $("#BUTTon")
+$("#BUTTon")
 
 console.log("IEHGO")
