@@ -1,5 +1,5 @@
 function nameLength(name) {
- console.log("name") 
+ console.log(name.length) 
 }
 
-name
+nameLength("你吃了侵渔！")
