@@ -1,3 +1,4 @@
-var 
+var button = $("#Button")
+var taps = 0
 
-onClick
+function() { button.onClick
