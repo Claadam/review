@@ -6,4 +6,5 @@ var clicks = 0
 function counter() {
  clicks++ 
  display.html(clicks + " cookies")
+ console.log(clicks)
 }
