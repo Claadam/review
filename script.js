@@ -3,15 +3,14 @@ var a = $("#factor-one")
 var b = $("#factor-two")
 var product = $("#product")
 var input = $(".input")
-console.log(a.val())
-console.log(a.val())
+var x 
 
 
 
 function multiplication (arg1,arg2) {
   console.log("called")
  var c = arg1*arg2
- console.log(")
+ console.log(arg1)
  product.html(c)
 }
 
