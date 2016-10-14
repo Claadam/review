@@ -1,7 +1,9 @@
 var button = $("#Button")
-var taps = 0
+var clicks = 0
 
-button.Click function() {
-  taps++
-  
+function clicks() {
+ clicks++ 
+ 
 }
+
+button.Click 
