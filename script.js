@@ -1,1 +1,3 @@
-console.log("What now?")
+var 
+
+onClick
