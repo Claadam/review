@@ -1,6 +1,7 @@
 var a = $("#factor one")
 var b = $("#factor two")
 var product = $("#product")
+var input = .("input")
 
 function multiplication (arg1,arg2) {
  var c = arg1*arg2
