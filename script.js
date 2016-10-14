@@ -10,7 +10,8 @@ function multiplication (arg1,arg2) {
   console.log("called")
  var c = arg1*arg2
  product.html(c)
- list.push()
+ list.push(c)
+ results.html(list.toString())
 }
 
 input.keydown(function(e) {	
