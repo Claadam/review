@@ -2,9 +2,13 @@ var a = $("#factor one")
 var b = $("#factor two")
 var product = $("#product")
 
-function multiplication (a,b) {
- var c = a*b
+function multiplication (arg1,arg2) {
+ var c = arg1*arg2
  product.html(c)
 }
 
-function keydown()
+input.keydown(function(e) {	
+  if (e.keyCode == "13") {
+    multiplication (a,b)
+  }
+})
