@@ -3,13 +3,13 @@ var a = $("#factor-one")
 var b = $("#factor-two")
 var product = $("#product")
 var input = $(".input")
-//console.log(a)
-//console.log(b)
+console.log(a.val)
+console.log(b.val)
 
 function multiplication (arg1,arg2) {
   console.log("called")
  var c = arg1*arg2
- product.html(c)
+ product.html(c.val)
 }
 
 input.keydown(function(e) {	
@@ -17,6 +17,6 @@ input.keydown(function(e) {
     var aval = a.val
     var bval = b.val
     console.log("enter")
-    multiplication(aval,b)
+    multiplication(aval,bval)
   }
 })
