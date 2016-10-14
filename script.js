@@ -3,9 +3,6 @@ var a = $("#factor-one")
 var b = $("#factor-two")
 var product = $("#product")
 var input = $(".input")
-var x 
-
-
 
 function multiplication (arg1,arg2) {
   console.log("called")
