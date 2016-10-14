@@ -8,4 +8,4 @@ function counter() {
  display.html(clicks + "cookies")
 }
 
-counter();
+counter()
