@@ -2,9 +2,9 @@ var button = $("#Button")
 var display = $("#display")
 var clicks = 0
 
-function clicks() {
+function click-counter() {
  clicks++ 
- 
+ display.html(clicks + "cookies")
 }
 
-button.Click 
+click-counter()
