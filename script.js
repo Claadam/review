@@ -1,10 +1,7 @@
-console.log("started")
-var button = $("#Button")
-var display = $("#display")
-var clicks = 0
+var a = $("#factor one")
+var b = $("#factor two")
+var c = $("#product")
 
-function counter() {
- clicks++ 
- display.html(clicks + " cookies")
- console.log(clicks)
+function multiplication (a,b) {
+  
 }
