@@ -1,7 +1,10 @@
 var a = $("#factor one")
 var b = $("#factor two")
-var c = $("#product")
+var product = $("#product")
 
 function multiplication (a,b) {
-  
+ var c = a*b
+ product.html(c)
 }
+
+function keydown()
