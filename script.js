@@ -1,10 +1,11 @@
+console.log("started")
 var button = $("#Button")
 var display = $("#display")
 var clicks = 0
 
-function click-counter() {
+function counter() {
  clicks++ 
  display.html(clicks + "cookies")
 }
 
-click-counter()
+counter();
