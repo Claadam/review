@@ -7,7 +7,6 @@ var input = $(".input")
 function multiplication (arg1,arg2) {
   console.log("called")
  var c = arg1*arg2
- console.log(arg1)
  product.html(c)
 }
 
